@@ -32,14 +32,14 @@ function App() {
   return (
     <>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <div>
+        
           <h1>Card Color Picker</h1>
-        </div>
+      
       </div>
 
       <div style={{ display: "flex", justifyContent: "center", gap: "2rem" }}>
         <div>
-          <p
+          <div
             className="cards"
             id="lightBlue"
             style={{
@@ -48,7 +48,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#2ec4b6" ? (
             <>
               <p>{inputColor}</p>
@@ -59,7 +59,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="darkGrey"
             style={{
@@ -68,7 +68,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#ff00ee" ? (
             <>
               <p>{inputColor}</p>
@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="red"
             style={{
@@ -88,7 +88,7 @@ function App() {
               height: "132px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#b500ff" ? (
             <>
               <p>{inputColor}</p>
@@ -99,7 +99,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="lightYellow"
             style={{
@@ -108,7 +108,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#8000ff" ? (
             <>
               <p>{inputColor}</p>
@@ -119,7 +119,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="lightGrey"
             style={{
@@ -128,7 +128,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#6900ff" ? (
             <>
               <p>{inputColor}</p>
@@ -139,7 +139,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="darkBlue"
             style={{
@@ -148,7 +148,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#000aff" ? (
             <>
               <p>{inputColor}</p>
@@ -159,7 +159,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="ash"
             style={{
@@ -168,7 +168,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#006eff" ? (
             <>
               <p>{inputColor}</p>
@@ -179,7 +179,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="lightOrange"
             style={{
@@ -188,7 +188,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#00d1ff" ? (
             <>
               <p>{inputColor}</p>
@@ -199,7 +199,7 @@ function App() {
         </div>
 
         <div>
-          <p
+          <div
             className="cards"
             id="lightPink"
             style={{
@@ -208,7 +208,7 @@ function App() {
               height: "100px",
             }}
             onClick={handleClick}
-          ></p>
+          ></div>
           {inputColor === "#00ffb3" ? (
             <>
               <p>{inputColor}</p>
@@ -224,6 +224,9 @@ function App() {
           display: "flex",
           justifyContent: "center",
           marginTop: "70px",
+          marginBottom:"110px",
+         
+        
         }}
       >
         <div
@@ -235,6 +238,7 @@ function App() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+          
           }}
         >
           <div style={{}}>
