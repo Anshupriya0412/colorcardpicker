@@ -31,103 +31,192 @@ function App() {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center", }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <div>
           <h1>Card Color Picker</h1>
         </div>
       </div>
 
       <div style={{ display: "flex", justifyContent: "center", gap: "2rem" }}>
-        <p
-          className="cards"
-          id="lightBlue"
-          style={{
-            backgroundColor: "#2EC4B6",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="darkGrey"
-          style={{
-            backgroundColor: "#ff00ee",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="red"
-          style={{
-            backgroundColor: "#b500ff",
-            width: "132px",
-            height: "132px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="lightYellow"
-          style={{
-            backgroundColor: "#8000ff",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="lightGrey"
-          style={{
-            backgroundColor: "#6900ff",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="darkBlue"
-          style={{
-            backgroundColor: "#000aff",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="ash"
-          style={{
-            backgroundColor: "#006eff",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="lightOrange"
-          style={{
-            backgroundColor: "#00d1ff",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
-        <p
-          className="cards"
-          id="lightPink"
-          style={{
-            backgroundColor: "#00ffb3",
-            width: "80px",
-            height: "100px",
-          }}
-          onClick={handleClick}
-        ></p>
+        <div>
+          <p
+            className="cards"
+            id="lightBlue"
+            style={{
+              backgroundColor: "#2EC4B6",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#2ec4b6" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="darkGrey"
+            style={{
+              backgroundColor: "#ff00ee",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#ff00ee" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="red"
+            style={{
+              backgroundColor: "#b500ff",
+              width: "132px",
+              height: "132px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#b500ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="lightYellow"
+            style={{
+              backgroundColor: "#8000ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#8000ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="lightGrey"
+            style={{
+              backgroundColor: "#6900ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#6900ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="darkBlue"
+            style={{
+              backgroundColor: "#000aff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#000aff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="ash"
+            style={{
+              backgroundColor: "#006eff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#006eff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="lightOrange"
+            style={{
+              backgroundColor: "#00d1ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#00d1ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div>
+          <p
+            className="cards"
+            id="lightPink"
+            style={{
+              backgroundColor: "#00ffb3",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></p>
+          {inputColor === "#00ffb3" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
       </div>
 
       <div
@@ -135,9 +224,6 @@ function App() {
           display: "flex",
           justifyContent: "center",
           marginTop: "70px",
-          marginBottom:"100px" , 
-          
-         
         }}
       >
         <div
@@ -146,31 +232,32 @@ function App() {
             width: "400px",
             borderBottomRightRadius: "30px",
             borderTopLeftRadius: "30px",
-            display: "block",
-           
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
+          <div style={{}}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={profile}
+                style={{
+                  borderRadius: "50%",
 
-          <div style={{marginLeft:"30%"}}>
-          <img
-            src={profile}
-            style={{
-              border: "2px solid black",
-              borderRadius: "50%",
-             
-              border:"2px solid black"
-            }}
-            alt="Dan Abramov"
-          />
-          <p style={{  }}>{input}</p>
+                  border: "2px solid black",
+                }}
+                alt="Dan Abramov"
+              />
+            </div>
+            <h2>{input}</h2>
           </div>
-          
         </div>
-
-        {/* <div style={{ backgroundColor: color,marginTop:"30px",display:"flex",justifyContent:"center", border: '2px solid yellow',  }}>
-              <img src={profile} style={{border:"2px solid black",borderRadius:"50%"}}alt="Dan Abramov" />
-              <p >{input}</p>
-            </div> */}
 
         <div className="sSecond">
           <h1 className="line1">Design my Card</h1>
