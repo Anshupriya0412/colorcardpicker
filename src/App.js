@@ -5,7 +5,7 @@ import rgbHex from "rgb-hex";
 
 function App() {
   const [color, setColor] = useState("#FF0000");
-  const [input, setInput] = useState("Vijay Kumar");
+  const [input, setInput] = useState("Virat kohli");
   const [inputColor, setInputColor] = useState("#FFFFFF"); // New state variable for input field color
 
   function handleClick(e) {
@@ -38,145 +38,7 @@ function App() {
       </div>
 
       <div style={{ display: "flex", justifyContent: "center", gap: "2rem" }}>
-        <div>
-          <div
-            className="cards"
-            id="lightBlue"
-            style={{
-              backgroundColor: "#2EC4B6",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#2ec4b6" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-        <div>
-          <div
-            className="cards"
-            id="darkGrey"
-            style={{
-              backgroundColor: "#ff00ee",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#ff00ee" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-        <div>
-          <div
-            className="cards"
-            id="red"
-            style={{
-              backgroundColor: "#b500ff",
-              width: "132px",
-              height: "132px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#b500ff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-        <div>
-          <div
-            className="cards"
-            id="lightYellow"
-            style={{
-              backgroundColor: "#8000ff",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#8000ff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-        <div>
-          <div
-            className="cards"
-            id="lightGrey"
-            style={{
-              backgroundColor: "#6900ff",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#6900ff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-        <div>
-          <div
-            className="cards"
-            id="darkBlue"
-            style={{
-              backgroundColor: "#000aff",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#000aff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-        <div>
-          <div
-            className="cards"
-            id="ash"
-            style={{
-              backgroundColor: "#006eff",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#006eff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
+      
 
         <div>
           <div
@@ -198,6 +60,147 @@ function App() {
           )}
         </div>
 
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="darkGrey"
+            style={{
+              backgroundColor: "#ff00ee",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#ff00ee" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="red"
+            style={{
+              backgroundColor: "#b500ff",
+              width: "132px",
+              height: "132px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#b500ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div>
+          <div
+            className="cards"
+            id="lightBlue"
+            style={{
+              backgroundColor: "#2EC4B6",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#2ec4b6" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="darkBlue"
+            style={{
+              backgroundColor: "#000aff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#000aff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="ash"
+            style={{
+              backgroundColor: "#006eff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#006eff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+
+
+
         <div>
           <div
             className="cards"
@@ -218,6 +221,65 @@ function App() {
           )}
         </div>
       </div>
+
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="lightYellow"
+            style={{
+              backgroundColor: "#8000ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#8000ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="lightGrey"
+            style={{
+              backgroundColor: "#6900ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#6900ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+
+
+
+
+
 
       <div
         style={{
