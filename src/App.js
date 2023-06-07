@@ -145,6 +145,52 @@ function App() {
 
 
 
+        <div>
+          <div
+            className="cards"
+            id="lightYellow"
+            style={{
+              backgroundColor: "#8000ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#8000ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
+
+
+
+
+        <div>
+          <div
+            className="cards"
+            id="lightGrey"
+            style={{
+              backgroundColor: "#6900ff",
+              width: "80px",
+              height: "100px",
+            }}
+            onClick={handleClick}
+          ></div>
+          {inputColor === "#6900ff" ? (
+            <>
+              <p>{inputColor}</p>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
+
+
 
 
 
@@ -223,52 +269,6 @@ function App() {
       </div>
 
 
-
-
-        <div>
-          <div
-            className="cards"
-            id="lightYellow"
-            style={{
-              backgroundColor: "#8000ff",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#8000ff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-
-
-
-
-
-
-        <div>
-          <div
-            className="cards"
-            id="lightGrey"
-            style={{
-              backgroundColor: "#6900ff",
-              width: "80px",
-              height: "100px",
-            }}
-            onClick={handleClick}
-          ></div>
-          {inputColor === "#6900ff" ? (
-            <>
-              <p>{inputColor}</p>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
 
 
 
