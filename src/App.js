@@ -312,7 +312,7 @@ function App() {
               }}
             >
               <img
-                src={images}
+                src={profile}
                 style={{
                   borderRadius: "50%",
 
